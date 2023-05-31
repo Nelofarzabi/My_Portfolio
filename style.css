@@ -53,6 +53,7 @@ header {
 
 .menu {
   padding: 58px 24px 0 0;
+  font-size: 25px;
 }
 
 .ion-icon {
@@ -73,7 +74,7 @@ header {
   background-color: #fff;
 }
 
-h2 {
+h1 {
   color: var(--h1-color);
   font-size: 36px;
   padding: 0 24px 12px 24px;
