@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My_Portfolio  Mobile Version with contact form <a name="about-project"></a>
+# 📖 My_Portfolio  Mobile Version with contact form and finish mobile version  <a name="about-project"></a>
 
 **My_Portfolio** is a vanilla-css project for learning web development.
 
