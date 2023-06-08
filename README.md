@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My_Portfolio  Mobile Version with contact form and finish mobile version  <a name="about-project"></a>
+# 📖 [Desktop Version]   <a name="about-project"></a>
 
-**My_Portfolio** is a vanilla-css project for learning web development.
+**[Portfolio]** is my fourth project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,7 +48,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Mobile Version of my portfolio**
+- **Desktop Version of my portfolio**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
