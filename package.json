@@ -25,6 +25,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "@hint/utils-network": "^1.0.25"
+    "@hint/utils-network": "^1.0.25",
+    "node-fetch": "^2.6.5"
   }
 }
