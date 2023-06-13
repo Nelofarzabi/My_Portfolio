@@ -93,7 +93,7 @@ header {
   margin: 0 auto;
 }
 
-h2 {
+h1 {
   color: var(--h1-color);
   font-size: 36px;
 }
