@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Still not have live demo
+## [View project live](https://nelofarzabi.github.io/My_Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,8 +101,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-Project can be deploy by using the gh-pages and other web plaform.
-
+## [View project live]( https://nelofarzabi.github.io/My_Portfolio/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
