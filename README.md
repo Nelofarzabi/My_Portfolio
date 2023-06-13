@@ -27,7 +27,7 @@
 
 # 📖 [Desktop Version]   <a name="about-project"></a>
 
-**[Portfolio]** is my fourth project.
+**[Portfolio]** is my third project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
