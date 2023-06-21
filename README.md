@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Desktop Version & Mobile Menu]   <a name="about-project"></a>
+# 📖 [Desktop Version & Popup Window]   <a name="about-project"></a>
 
 **[Portfolio]** is my third project.
 
@@ -162,3 +162,4 @@ I would like to thanks from Microverse
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
