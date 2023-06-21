@@ -106,7 +106,7 @@ const showInHtml = projects
   .join('');
 myContent.innerHTML = showInHtml;
 /* View Pop Up */
-const myPopUp = document.querySelector('.popup');
+
 const popUpDetails = projects.map(
   (project) => `<section class="popup">
     <div class="popup-header">
@@ -155,13 +155,10 @@ const popUpDetails = projects.map(
 );
 /* Pop Up Menu */
 const popup = document.getElementById('popup');
-const seeButton = document.querySelectorAll('.see-btn');
-document.getElementById('0').onclick = f1;
-document.getElementById('1').onclick = f1;
-document.getElementById('2').onclick = f1;
-document.getElementById('3').onclick = f1;
+
+
 function f1() {
-  const x = parseInt(this.id);
+  const x = Number(this.id);
   popup.innerHTML = popUpDetails[x];
   popup.style.display = 'block';
   document.getElementById('cl').onclick = function () {
@@ -169,6 +166,10 @@ function f1() {
     popup.style.display = 'none';
   };
 }
+document.getElementById('0').onclick = f1;
+document.getElementById('1').onclick = f1;
+document.getElementById('2').onclick = f1;
+document.getElementById('3').onclick = f1;
 /* Pop Up Menu end */
 
 const span = document.getElementsByClassName('close')[0];
