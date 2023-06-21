@@ -156,7 +156,6 @@ const popUpDetails = projects.map(
 /* Pop Up Menu */
 const popup = document.getElementById('popup');
 
-
 function f1() {
   const x = Number(this.id);
   popup.innerHTML = popUpDetails[x];
