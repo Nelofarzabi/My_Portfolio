@@ -27,16 +27,17 @@ html {
 
 body {
   font-family: var(--font-family);
-  background-color: #fff;
+  background-color: #f7f7f9;
 }
 
-/* Header Section Start */
+/* Header Section */
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: var(--logo-color);
+  background-color: white;
 }
 
 /* text logo */
@@ -174,6 +175,9 @@ h2 {
 
 .about-myself-title {
   color: #091e42;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .canopy {
@@ -218,6 +222,21 @@ h2 {
   transition: 0.2s;
 }
 
+.newBtn {
+  background-color: #fff;
+  width: 150px;
+  text-align: center;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #2230d2;
+  color: #396df2;
+  padding: 4px 12px 4px 12px;
+  transition: 0.2s;
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
 .btn-md {
   background-color: #ebebff;
   width: 45px;
@@ -232,7 +251,7 @@ h2 {
 
 .btn-lg {
   background-color: #ebebff;
-  width: 70px;
+  width: 90px;
   text-align: center;
   height: 25px;
   border-radius: 5px;
@@ -246,7 +265,7 @@ h2 {
   padding-bottom: 13px;
 }
 
-.btn-xxl {
+.see-btn {
   width: 124px;
   text-align: center;
   height: 48px;
@@ -262,7 +281,7 @@ h2 {
 .btn-sm:hover,
 .btn-md:hover,
 .btn-lg:hover,
-.btn-xxl:hover {
+.see-btn:hover {
   cursor: pointer;
   background-color: #6070ff;
   box-shadow: 0 0 16px rgba(64, 83, 252, 0.24);
@@ -290,7 +309,7 @@ h2 {
 .btn-sm:active,
 .btn-md:active,
 .btn-lg:active,
-.btn-xxl:active {
+.see-btn:active {
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #7f8cff;
@@ -303,12 +322,13 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 114px 24px 0 24px;
 }
 
 .tech-title {
   align-items: center;
   justify-content: space-between;
-  padding: 8px;
+  padding: 36px 102px 0 36px;
 }
 
 .tech-title > h3 {
@@ -456,6 +476,8 @@ h2 {
 
 .about-section {
   padding: 15px 15px 15px 15px;
+  border-radius: 0 8rem 0 0;
+  background-color: white;
 }
 
 .hero-subheading {
@@ -467,10 +489,18 @@ h2 {
 
 .about-subheading {
   color: #7f8cff;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
 }
 
 .social-media-icons {
   padding-right: 10px;
+  margin-right: -10px;
 }
 
 .nav-item {
@@ -480,6 +510,10 @@ h2 {
 .close {
   position: absolute;
   right: 38px;
+  margin-right: 11%;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
 
   /* display: none; */
 }
@@ -529,9 +563,104 @@ h2 {
   display: none;
 }
 
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  height: auto;
+  padding: 16px;
+  border-radius: 16px;
+  margin-left: 18%;
+  width: 70%;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-window {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-project-image {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.popup-project-details {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.column-left {
+  width: 70%;
+  font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  line-height: 24px;
+}
+
+.column-right {
+  width: 40%;
+}
+
+.popup-project-stack {
+  display: flex;
+  font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.popup-project-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.tech-images {
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .popup-project-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .column-left {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
-    background-color: #fff;
+    background-color: #f7f7f9;
   }
 
   #desktop-menu {
@@ -677,6 +806,14 @@ h2 {
     width: 44%;
   }
 
+  .about {
+    /* display: flex;
+    flex-direction: column; */
+
+    /* gap: 20px; */
+    padding: 0 24px 0 24px;
+  }
+
   .about-myself-desc {
     font-size: 1rem;
     line-height: 28px;
@@ -767,5 +904,11 @@ h2 {
     height: 120px;
     width: 120px;
     background-color: #f7f7f9;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tech-name {
+    display: flex;
   }
 }
