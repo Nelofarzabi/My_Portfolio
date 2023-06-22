@@ -111,8 +111,6 @@
 
     <!--About Section Starts Here-->
 
-    <!--Modal Starts Here-->
-
     <section id="about" class="about-section">
       <div class="about">
         <h1 class="about-myself-title">About <br> Myself</h1>
@@ -236,20 +234,22 @@
           class="form"
           action="https://formspree.io/f/mlezyvyo"
           method="post"
+          id="form"
         >
           <input
             type="text"
             class="field"
             required
             maxlength="30"
-            placeholder="Yeremias"
+            placeholder="Your Name"
+            id="contact-name"
           />
           <input
             type="email"
             id="email"
             class="field"
             required
-            placeholder="natajayanji@gmail.com"
+            placeholder="Your Email"
           />
           <textarea
             class="text-area"
@@ -261,6 +261,7 @@
             name="message"
             id="message"
           ></textarea>
+           <p id="error-message">error</p>
           <button class="btn-submit" type="submit">Get In Touch</button>
         </form>
       </div>
