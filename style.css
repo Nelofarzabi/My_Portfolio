@@ -440,6 +440,17 @@ h2 {
   border: none;
 }
 
+#error-message {
+  padding: 2px;
+  margin-top: 22px;
+  color: #f00;
+  font-size: 15px;
+  float: left;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
 .text-area {
   margin: 0 24px 0 24px;
   border-radius: 8px;
@@ -847,6 +858,17 @@ h2 {
 
   .ul {
     list-style-type: none;
+  }
+
+  #error-message {
+    padding: 2px;
+    margin-top: 22px;
+    color: #f00;
+    font-size: 18px;
+    float: left;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
   }
 
   .about-subheading {
