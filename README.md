@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Desktop Version & Popup Window]   <a name="about-project"></a>
+# 📖 [Desktop Version & Validation Form]   <a name="about-project"></a>
 
 **[Portfolio]** is my third project.
 
