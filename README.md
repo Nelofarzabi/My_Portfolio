@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Desktop Version ]   <a name="about-project"></a>
+# 📖 [Desktop Version & Local Storage]   <a name="about-project"></a>
 
 **[Portfolio]** is my third project.
 
