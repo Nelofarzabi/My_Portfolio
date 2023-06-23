@@ -218,7 +218,7 @@ function storeData() {
 function clearValues() {
   userName.value = "",
   email.value = "",
-  message.value = "",
+  message.value = ""
 }
 
 btnSubmit.addEventListener('focusout', () => {
