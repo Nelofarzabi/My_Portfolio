@@ -204,6 +204,7 @@ function formValidate(event) {
 form.addEventListener('submit', formValidate);
 const message = document.getElementById('message');
 const userName = document.getElementById('contact-name');
+const btnSubmit = document.querySelector('.btn-submit');
 
 function storeData() {
   const user = {
@@ -214,14 +215,29 @@ function storeData() {
   localStorage.setItem('user', JSON.stringify(user));
 }
 
-userName.addEventListener('focusout', storeData);
-email.addEventListener('focusout', storeData);
-message.addEventListener('focusout', storeData);
+function clearValues() {
+  userName.value = '';
+  email.value = '';
+  message.value = '';
+}
+
+btnSubmit.addEventListener('focusout', () => {
+  userName.onchange = clearValues();
+  email.onchange = clearValues();
+  message.onchange = clearValues();
+  localStorage.clear();
+});
 
 const data = JSON.parse(localStorage.getItem('user'));
 
-if (data) {
-  userName.value = data.UserName;
-  email.value = data.UserEmail;
-  message.value = data.UserText;
-}
+window.addEventListener('load', () => {
+  if (data) {
+    userName.value = data.UserName;
+    email.value = data.UserEmail;
+    message.value = data.UserText;
+  }
+});
+
+userName.addEventListener('focusout', storeData);
+email.addEventListener('focusout', storeData);
+message.addEventListener('focusout', storeData);

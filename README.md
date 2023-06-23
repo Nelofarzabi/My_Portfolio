@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Desktop Version & Validation Form]   <a name="about-project"></a>
+# 📖 [Desktop Version & Local Storage]   <a name="about-project"></a>
 
 **[Portfolio]** is my third project.
 
@@ -121,9 +121,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Portfolio**
-- [ ] **Mobile Version**
-- [ ] **Desktop Version**
+- [ ] **Add more sections that show all of my skills**
+- [ ] **Use React.Js instead of JS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
