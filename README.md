@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Desktop Version & Popup Window]   <a name="about-project"></a>
+# 📖 [Desktop Version & Validation Form]   <a name="about-project"></a>
 
 **[Portfolio]** is my third project.
 
@@ -101,7 +101,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-## [View project live](https://nelofarzabi.github.io/My_Portfolio/)
+## [View project live](https://nelofarzabi.github.io/My_Portfolio/ )
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
