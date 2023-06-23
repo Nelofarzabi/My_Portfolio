@@ -217,7 +217,6 @@ function storeData() {
 userName.addEventListener('focusout', storeData);
 email.addEventListener('focusout', storeData);
 message.addEventListener('focusout', storeData);
-
 const data = localStorage.getItem('user');
 
 if (data) {
