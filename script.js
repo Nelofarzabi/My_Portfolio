@@ -216,9 +216,9 @@ function storeData() {
 }
 
 function clearValues() {
-  userName.value = "";
-  email.value = "";
-  message.value = "";
+  userName.value = "",
+  email.value = "",
+  message.value = "",
 }
 
 btnSubmit.addEventListener('focusout', () => {
@@ -226,7 +226,7 @@ btnSubmit.addEventListener('focusout', () => {
   email.onchange = clearValues();
   message.onchange = clearValues();
   localStorage.clear();
-})
+});
 
 const data = JSON.parse(localStorage.getItem('user'));
 
@@ -236,7 +236,7 @@ window.addEventListener('load', () => {
     email.value = data.UserEmail;
     message.value = data.UserText;
   }
-})
+});
 
 userName.addEventListener('focusout', storeData);
 email.addEventListener('focusout', storeData);
