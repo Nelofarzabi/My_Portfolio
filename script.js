@@ -202,8 +202,9 @@ function formValidate(event) {
   } else { error.style.visibility = 'hidden'; }
 }
 form.addEventListener('submit', formValidate);
-const message = document.getElementByclass('message');
-const userName = document.getElementByclass('contact-name');
+const message = document.getElementById('message');
+const userName = document.getElementById('contact-name');
+const btnSubmit = document.querySelector('.btn-submit');
 
 function storeData() {
   const user = {
@@ -214,13 +215,29 @@ function storeData() {
   localStorage.setItem('user', JSON.stringify(user));
 }
 
+function clearValues() {
+  userName.value = "";
+  email.value = "";
+  message.value = "";
+}
+
+btnSubmit.addEventListener('focusout', () => {
+  userName.onchange = clearValues();
+  email.onchange = clearValues();
+  message.onchange = clearValues();
+  localStorage.clear();
+})
+
+const data = JSON.parse(localStorage.getItem('user'));
+
+window.addEventListener('load', () => {
+  if (data) {
+    userName.value = data.UserName;
+    email.value = data.UserEmail;
+    message.value = data.UserText;
+  }
+})
+
 userName.addEventListener('focusout', storeData);
 email.addEventListener('focusout', storeData);
 message.addEventListener('focusout', storeData);
-const data = localStorage.getItem('user');
-
-if (data) {
-  userName.value = data.UserName;
-  email.value = data.UserEmail;
-  message.value = data.UserText;
-}
