@@ -54,9 +54,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 About Project <a name="live-demo"></a>
+## 🚀 Project Live  <a name="live-demo"></a>
 
-## [Listen about project ]( https://www.loom.com/share/102807b8905946fc96f798d57d778e8a?sid=07a6ba35-dff5-4ce9-a66a-d4ade4c9f6d8)
+## [Project Live](View project live](https://nelofarzabi.github.io/My_Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
