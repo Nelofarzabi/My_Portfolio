@@ -56,7 +56,7 @@
 
 ## 🚀 Project Live  <a name="live-demo"></a>
 
-## [Project Live](View project live](https://nelofarzabi.github.io/My_Portfolio/)
+## [Project Live](https://nelofarzabi.github.io/My_Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
