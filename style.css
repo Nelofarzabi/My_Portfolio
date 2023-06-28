@@ -303,6 +303,8 @@ h2 {
 .btn-submit:hover {
   cursor: pointer;
   transform: translateY(4px);
+  color: green;
+  background-color: white;
 }
 
 .btn-submit:active,
