@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Desktop Version & Local Storage]   <a name="about-project"></a>
+# 📖 [ My Portfolio]   <a name="about-project"></a>
 
-**[Portfolio]** is my third project.
+**[Portfolio]** A portfolio is a collection of your work, projects, and achievements that showcase your skills, experience, and expertise in web development. This is my profile project that I developed during the first module at Microverse. It's a single-page website that showcases all my skills, projects, and coding knowledge. With the help of this project, I can apply to demonstrate my knowledge and skills.
 
 ## 🛠 Built With <a name="built-with"></a>
 
